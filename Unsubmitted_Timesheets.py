@@ -30,7 +30,7 @@ for res in results:
     if ":" in string_name:
         continue
     #condition for "View Timesheet" result returned
-    if "Timesheet" in string_name:
+    if "ViewTimesheet" in string_name:
         continue
     # [optional] other conditions such as employees set as contractor on Harvest
     #if "Contractor" in string_name:
